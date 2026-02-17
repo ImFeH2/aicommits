@@ -1,0 +1,28 @@
+{
+  "name": "aicommits",
+  "version": "0.0.0-semantic-release",
+  "description": "Writes your git commit messages for you with AI",
+  "keywords": [
+    "ai",
+    "git",
+    "commit",
+    "code changes"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nutlope/aicommits.git"
+  },
+  "author": "Hassan El Mghari (@nutlope)",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "bin": {
+    "aicommits": "dist/cli.mjs",
+    "aic": "dist/cli.mjs"
+  },
+  "dependencies": {
+    "update-notifier": "^7.3.1"
+  }
+}
